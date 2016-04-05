@@ -1,13 +1,13 @@
 import os
 from setuptools import setup, find_packages
 
-version = '0.0.2'
+version = '0.0.3'
 
 long_description = \
     open(os.path.join("docs", "source", "README.rst")).read() + "\n" + \
     open(os.path.join("docs", "source", "HISTORY.rst")).read()
 
-setup(name='mr.kangaro',
+setup(name='mr.kangaroo',
       version=version,
       description="mr.kangaroo",
       long_description=long_description,
